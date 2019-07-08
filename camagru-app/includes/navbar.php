@@ -3,9 +3,7 @@
 		<a href="index.php"><h1>Camagru</h1></a>
 	</div>
 	<ul>
-	  <li><a class="active" href="index.php">Home</a></li>
-	  <li><a href="#news">News</a></li>
-	  <li><a href="#contact">Contact</a></li>
-	  <li><a href="#about">About</a></li>
+	  <li><a href="#login">Login</a></li>
+	  <li><a href="#logout">Logout</a></li>
 	</ul>
 </div>
