@@ -1,13 +1,11 @@
-	<?php require_once('includes/head_section.php') ?>
+	<?php require_once('head_section.php') ?>
 	
-	<title>Camagru</title>
-</head>
-<body>
+
 	<!-- container - wraps whole page -->
 	<div class="container">
 		<!-- navbar -->
 		
-		<?php include('includes/navbar.php') ?>
+		<?php require_once('navbar.php') ?>
 
 		<!-- Page content -->
 		<div class="content">
@@ -18,4 +16,4 @@
 		<!-- // Page content -->
 
 		<!-- footer -->
-		<?php include('includes/footer.php') ?>
+	<?php include('footer.php') ?>

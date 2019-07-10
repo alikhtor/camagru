@@ -79,38 +79,45 @@ form input:focus {
   background-color: #3e606f;
   border-radius: 0px 0px 6px 6px;
 }
-.navbar ul {
-  list-style-type: none;
+
+.navbar .login {
   float: right;
-}
-.navbar ul li {
-  float: left;
   font-family: 'Noto Serif', serif;
-}
-.navbar ul li a {
   display: block;
-  color: white;
-  text-align: center;
+  color: #b9e6f2;
   padding: 20px 28px;
+  text-align: center;
+}
+
+.navbar .login a {
+  color: white;
   text-decoration: none;
 }
-.navbar ul li a:hover {
+
+.navbar .login a:hover {
   color: #b9e6f2;
-  background-color: #334f5c;
+  /* background-color: #334f5c; */
 }
 
 /* LOGO */
-.navbar .logo_div {
+.navbar .logo {
   float: left;
   padding-top: 5px;
   padding-left: 40px;
 }
-.navbar .logo_div h1 {
-  color: #b9e6f2;
+.navbar .logo h1 {
+  /* color: white; */
   font-size: 3em;
   letter-spacing: 5px;
   font-weight: 100;
   font-family: 'Tangerine', cursive;
+}
+.navbar .logo h1 a {
+  color: white;
+}
+
+.navbar .logo a:hover {
+  color: #b9e6f2;
 }
 
 /* FOOTER */
