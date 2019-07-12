@@ -42,7 +42,7 @@
       if ($pw1 != $pw2) {
         $this->errorsDic->password = "Your passwords don't match!";
         $this->isErrorPassword = true;
-        return; 
+        return;
       }
       if (preg_match('/[^A-Za-z0-9]/', $pw1)) {
         $this->errorsDic->password = "Your password can only contain numbers and letters!";
